@@ -6,7 +6,7 @@ export default function Login() {
   const [selected, setSelected] = React.useState("login");
 
   return (
-    <div className="flex flex-col items-center mt-10 w-full">
+    <div className="flex flex-col items-center  justify-center w-full">
       <Card className="max-w-full w-[340px] h-[400px]">
         <CardBody className="overflow-hidden">
           <Tabs
